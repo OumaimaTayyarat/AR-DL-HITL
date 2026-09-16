@@ -251,6 +251,3 @@ Citation details will be updated upon publication.
 
 ---
 
-# Contact
-
-Corresponding author information will be provided in the non-anonymized publication package.
