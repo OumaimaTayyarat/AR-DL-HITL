@@ -1,0 +1,7 @@
+status,reason,count
+retained,alignment_within_tolerance,206
+rejected,viewpoint_alignment_outside_tolerance,34
+rejected,tracking_loss,0
+rejected,image_blur,0
+rejected,pose_unavailable,0
+rejected,other,0
