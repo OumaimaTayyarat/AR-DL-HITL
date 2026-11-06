@@ -11,10 +11,7 @@ minimum_learning_rate: 0.000001
 early_stopping_patience: 8
 gradient_clipping_max_norm: 1.0
 checkpoint_selection: best_validation_loss
-initialization: same_pre_hitl_checkpoint_for_all_variants
-augmentations:
-  horizontal_flip_probability: 0.5
-  rotation_degrees: [-10, 10]
-  brightness_contrast_max: 0.15
-  gaussian_blur_probability: 0.1
-  geometric_transform_consistency: image_and_mask_identical
+horizontal_flip_probability: 0.5
+rotation_degrees: [-10, 10]
+brightness_contrast_max: 0.15
+gaussian_blur_probability: 0.1

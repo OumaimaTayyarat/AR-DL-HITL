@@ -1,0 +1,32 @@
+{
+  "generator_seed": 20261105,
+  "training_seeds": [
+    7,
+    19,
+    42,
+    73,
+    101
+  ],
+  "configurations": [
+    "pre_HITL",
+    "corrections_only",
+    "random_control",
+    "pose_guided_post_HITL"
+  ],
+  "image_pixels": 1228800,
+  "pooled_targets": {
+    "cracking": {
+      "pre_HITL": 0.746,
+      "corrections_only": 0.79,
+      "random_control": 0.82,
+      "pose_guided_post_HITL": 0.84
+    },
+    "spalling": {
+      "pre_HITL": 0.913,
+      "corrections_only": 0.935,
+      "random_control": 0.945,
+      "pose_guided_post_HITL": 0.95
+    }
+  }
+
+}
